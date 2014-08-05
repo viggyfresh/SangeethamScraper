@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "SangeethapriyaScraper",
+
+    "description": "This handy dandy extension clicks, so you don't have to.",
+    
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/jquery-2.1.1.min.js"]
+        }
+    ],
+
+    "permissions": [
+        "tabs",
+        "background",
+        "http://*/*",
+        "https://*/*"
+    ],
+    
+    "browser_action": {
+        "default_icon": "music.png",
+        "default_popup": "scraper.html"
+    }
+}

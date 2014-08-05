@@ -1,0 +1,7 @@
+body, section {
+	width: 750px;
+	height: 450px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar { width: 3px; }
