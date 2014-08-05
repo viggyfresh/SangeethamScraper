@@ -3,9 +3,14 @@
 
     "name": "SangeethapriyaScraper",
 
-    "description": "This handy dandy extension clicks, so you don't have to.",
+    "description": "I click, so you don't have to.",
     
     "version": "1.0",
+
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
 
     "content_scripts": [
         {
@@ -17,11 +22,12 @@
     "permissions": [
         "tabs",
         "background",
+        "declarativeContent",
         "http://*/*",
         "https://*/*"
     ],
     
-    "browser_action": {
+    "page_action": {
         "default_icon": "music.png",
         "default_popup": "scraper.html"
     }

@@ -1,4 +1,3 @@
-console.log($("tbody > tr > td > b > a"));
 var html = "";
 $("tbody > tr > td > b > a").each(function(index) {
     html += "<tr>";
