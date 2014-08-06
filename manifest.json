@@ -3,9 +3,9 @@
 
     "name": "SangeethapriyaScraper",
 
-    "description": "I click, so you don't have to.",
+    "description": "I download, so you don't have to...",
     
-    "version": "1.0",
+    "version": "1.2",
 
     "background": {
         "scripts": ["js/background.js"],
@@ -23,6 +23,7 @@
         "tabs",
         "background",
         "declarativeContent",
+        "downloads",
         "http://*/*",
         "https://*/*"
     ],

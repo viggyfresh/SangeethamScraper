@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(function() {
       {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { urlContains: 'sangeethamshare' }
+            pageUrl: { urlContains: 'sangeetha' }
           })
         ],
         actions: [ new chrome.declarativeContent.ShowPageAction() ]
