@@ -1,4 +1,4 @@
-SangeethapriyaScraper
+SangeethamScraper
 =====================
 
 I download, so you don't have to...
